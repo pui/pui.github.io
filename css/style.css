@@ -1,0 +1,96 @@
+html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: courier;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 0;
+  padding: 0; }
+
+p, ol, ul, td {
+  font-family: courier;
+  font-size: 13px;
+  line-height: 18px; }
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px; }
+
+a {
+  color: #000; }
+
+h1 a {
+  text-decoration: none; }
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table; }
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0; }
+  #errorExplanation h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    background-color: #c00;
+    color: #fff; }
+  #errorExplanation p {
+    color: #333;
+    margin-bottom: 0;
+    padding: 5px; }
+  #errorExplanation ul li {
+    font-size: 12px;
+    list-style: square; }
+
+#header {
+  text-align: center;
+  width: 100%;
+  padding: 20px 0; }
+  #header img {
+    border: 1px solid;
+    height: 150px; }
+
+#content {
+  margin: 0 auto;
+  width: 900px; }
+
+#maincol {
+  border: 1px solid;
+  float: left;
+  width: 575px;
+  padding: 15px 30px; }
+  #maincol .post {
+    padding-bottom: 20px; }
+  #maincol .comment_size a, #maincol .pagination a {
+    text-decoration: none;
+    color: #6F7285; }
+  #maincol .pagination {
+    float: right; }
+    #maincol .pagination .disabled {
+      display: none; }
+
+#subcol {
+  border: 1px solid;
+  width: 245px;
+  float: right; }
+
+#about {
+  padding: 15px 30px; }
+  
+#footer {
+  padding-top: 5px;
+  float: left;
+}
