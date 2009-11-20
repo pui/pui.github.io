@@ -72,6 +72,8 @@ h1 a {
   float: left;
   width: 575px;
   padding: 15px 30px; }
+  #maincol .image_and_caption {
+    text-align: center; }
   #maincol .post {
     padding-bottom: 20px; }
   #maincol .comment_size a, #maincol .pagination a {
