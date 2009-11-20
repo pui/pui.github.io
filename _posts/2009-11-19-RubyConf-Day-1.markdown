@@ -9,4 +9,4 @@ I enjoyed some talks more than others, but [MongoDB](http://www.mongodb.org/disp
   <b>Here's a blimp from the Arduino talk!</b> 
 </div>
 
-Anyway, hearing other people talk about their projects makes me more excited about working on my on projects which is a good thing.  I did some knitting on my [February Lady sweater](http://www.flintknits.com/blog/?p=151) during a morning talk and will hopefully make some more headway tomorrow.  I enjoy the learning and knitting together.  
+Anyway, hearing other people talk about their projects makes me more excited about working on my own projects which is a good thing.  I did some knitting on my [February Lady sweater](http://www.flintknits.com/blog/?p=151) during a morning talk and will hopefully make some more headway tomorrow.  I enjoy the learning and knitting together.  
