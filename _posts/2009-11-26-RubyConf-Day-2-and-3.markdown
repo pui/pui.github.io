@@ -1,3 +1,4 @@
+---
 layout: post
 title: RubyConf day 2 and 3
 ---
