@@ -10,7 +10,8 @@ So I was originally using inject to create a hash of video game data from an arr
     div_elements.inject({}) do |hash, div_element|
         game_name = div_element.at("//p/a").inner_text
         last_played_online_time = div_element.at("//p/strong").inner_text
-        hash.merge(game_name => last_played_online_time)
+        hash[game_name] = last_played_online_time
+        hash
     end
 
 But sometimes, a user had never played a game online, so the text in the strong element I was checking for the time would contain something like "not played" in this case.  I thought I could easily solve this by doing:   
