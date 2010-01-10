@@ -27,34 +27,6 @@ a {
 h1 a {
   text-decoration: none; }
 
-.fieldWithErrors {
-  padding: 2px;
-  background-color: red;
-  display: table; }
-
-#errorExplanation {
-  width: 400px;
-  border: 2px solid red;
-  padding: 7px;
-  padding-bottom: 12px;
-  margin-bottom: 20px;
-  background-color: #f0f0f0; }
-  #errorExplanation h2 {
-    text-align: left;
-    font-weight: bold;
-    padding: 5px 5px 5px 15px;
-    font-size: 12px;
-    margin: -7px;
-    background-color: #c00;
-    color: #fff; }
-  #errorExplanation p {
-    color: #333;
-    margin-bottom: 0;
-    padding: 5px; }
-  #errorExplanation ul li {
-    font-size: 12px;
-    list-style: square; }
-
 #header {
   text-align: center;
   width: 100%;
@@ -72,17 +44,17 @@ h1 a {
   float: left;
   width: 575px;
   padding: 15px 30px; }
-  #maincol .image_and_caption {
-    text-align: center; }
-  #maincol .post {
-    padding-bottom: 20px; }
-  #maincol .comment_size a, #maincol .pagination a {
-    text-decoration: none;
-    color: #6F7285; }
-  #maincol .pagination {
-    float: right; }
-    #maincol .pagination .disabled {
-      display: none; }
+#maincol .image_and_caption {
+  text-align: center; }
+#maincol .post {
+  padding-bottom: 20px; }
+#maincol .pagination {
+  text-decoration: none;
+  color: #6F7285; }
+#maincol .older {
+  float: left; }
+#maincol .newer {
+  float: right; }
 
 #subcol {
   border: 1px solid;
