@@ -2,15 +2,28 @@
 layout: default
 title: Dumb As a Bunny
 ---
-  {% for post in site.posts %}
-    <div class="post">
-      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-      <p>
-        {{ post.content }}
-      </p>
-      <p>
-        {{ post.date | date: "%B %d, %Y" }}
-      </p>
-      <a href="{{ post.url }}#disqus_thread">Comments</a>
-    </div>
-  {% endfor %}
+{% for post in paginator.posts %}
+  <div class="post">
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <p>
+      {{ post.content }}
+    </p>
+    <p>
+      {{ post.date | date: "%B %d, %Y" }}
+    </p>
+    <a href="{{ post.url }}#disqus_thread">Comments</a>
+  </div>
+{% endfor %}
+
+<div>
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+      <a class="pagination newer" href="/" title="newer"> Newer &rarr;</a>
+    {% else %}
+      <a class="pagination older" href="page{{ paginator.previous_page }}/index.html" title="newer"> Newer &rarr;</a>
+    {% endif %}
+  {% endif %}
+  {% if paginator.next_page %}
+    <a class="pagination" href="page{{ paginator.next_page }}/index.html" title="older">&larr; Older</a>
+  {% endif %}
+</div>
