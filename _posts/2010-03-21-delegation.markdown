@@ -17,7 +17,8 @@ Here's the two classes, with Coworker wanting to delegate the instance method se
       def description
         "The reaction to #{name} is #{reaction}."
       end
-
+    end
+  
     class Coworker ActiveRecord::Base
       has_one :severe_allergy
   
