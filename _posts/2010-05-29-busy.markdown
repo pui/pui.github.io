@@ -13,7 +13,7 @@ Work has been pretty life consuming and has kept me from updating the blog recen
 I took this is in Montgomery station.  It was raining a lot this week, which helped further justify buying rainboots.  
 
 <div class="image_and_caption">
-  <p><img src="images/sophy_phone.jpg" alt="sophy" title="Sophy texting"/></p>
+  <p><img src="/images/sophy_phone.jpg" alt="sophy" title="Sophy texting"/></p>
   <b>Sophy texting</b>
 </div>
 
