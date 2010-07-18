@@ -1,65 +1,101 @@
-html {
-  margin: 0;
-  padding: 0; }
-
 body {
-  background-color: #fff;
-  color: #333;
-  font-family: courier;
+  font-family: helvetica;
   font-size: 13px;
   line-height: 18px;
   margin: 0;
-  padding: 0; }
+}
 
 p, ol, ul, td {
-  font-family: courier;
+  font-family: helvetica;
   font-size: 13px;
-  line-height: 18px; }
+  line-height: 18px; 
+}
 
 pre {
   background-color: #eee;
   padding: 10px;
-  font-size: 11px; }
+  font-size: 11px; 
+}
 
-a {
-  color: #000; }
+a, h1 a {
+  text-decoration: none;
+  color: #5D676D; 
+}
 
-h1 a {
-  text-decoration: none; }
-
-#header {
-  text-align: center;
+#header a {
   width: 100%;
-  padding: 20px 0; }
-  #header img {
-    border: 1px solid;
-    height: 150px; }
+  background: #C8DDEC url('../images/cloud_header.png') no-repeat center;
+  height: 172px;
+  padding-top: 25px;
+  display: block;
+}
 
 #content {
   margin: 0 auto;
-  width: 900px; }
+  position: relative;
+  padding-top: 10px;
+}
 
 #maincol {
-  border: 1px solid;
-  float: left;
-  width: 575px;
-  padding: 15px 30px; }
+  background-color: white;
+  padding-left: 200px;
+  width: 600px;
+}
 #maincol .image_and_caption {
-  text-align: center; }
+  text-align: center; 
+}
 #maincol .post {
-  padding-bottom: 20px; }
+  padding-bottom: 20px; 
+}
 #maincol .pagination {
   text-decoration: none;
-  color: #6F7285; }
+  color: #6F7285; 
+}
+
 #maincol .older {
-  float: left; }
+  float: left; 
+}
+
 #maincol .newer {
-  float: right; }
+  float: right; 
+}
+
 
 #subcol {
-  border: 1px solid;
-  width: 245px;
-  float: right; }
+  background-color: #D3D3D3;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 100%;
+}
 
 #about {
-  padding: 15px 30px; }
+  padding: 15px 0 0 25px;
+}
+
+#twitter a {
+  background: url('../images/twitter.png') no-repeat;
+  display: block;
+  height: 71px;
+}
+
+#square {
+  padding-top: 15px;
+}
+
+#square a {
+  background: url('../images/square.png') no-repeat;
+  display: block;
+  height: 71px;
+}
+
+#github {
+  padding-top: 15px;
+}
+
+#github a {
+  background: url('../images/github.png') no-repeat;
+  display: block;
+  height: 71px;
+}

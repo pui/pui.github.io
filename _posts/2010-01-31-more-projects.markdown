@@ -6,7 +6,7 @@ title: More Projects
 The [February Lady Sweater](http://www.flintknits.com/blog/?p=151) is done and looks like this:
 
 <div class="image_and_caption">
-  <p><img src="/images/done_lady_sweater.jpg" alt="February Lady Sweater" title="February Lady Sweater"/></p>
+  <p><img src="images/done_lady_sweater.jpg" alt="February Lady Sweater" title="February Lady Sweater"/></p>
   <b>See how it goes nicely with my living room wall?</b>
 </div>
 
@@ -15,7 +15,7 @@ I'm happy with it overall.  The button holes I made were way too big, so I ended
 In an effort to use up a bunch of stashed Cascade 220, I'm attempting to knit [owls](http://needled.wordpress.com/2008/11/22/owls/).  I'm knitting a size large in hopes of getting an extra small.  So far, it's a little on the big side, but I think it will fit.  Otherwise, [Sophy](http://knitsnotesetc.com/) gets it in exchange for all the nice things she's given me. :)  
 
 <div class="image_and_caption">
-  <p><img src="/images/half_done_owls.jpg" alt="Half Done Owls" title="Half Done Owls"/></p>
+  <p><img src="images/half_done_owls.jpg" alt="Half Done Owls" title="Half Done Owls"/></p>
   <b>A sleeve and body in a pile on the floor</b>
 </div>
 
