@@ -3,7 +3,7 @@ layout: post
 title: inject vs. each_with_object
 ---
 
-I [tweeted](http://twitter.com/erica_now_knows/status/5323399139) about this a while back, but I thought I'd write about how I ran into problems with inject and how each_with_inject made it all better.  
+I [tweeted](http://twitter.com/erica_now_knows/status/5323399139) about this a while back, but I thought I'd write about how I ran into problems with inject and how each_with_object made it all better.  
 
 So I was originally using inject to create a hash of video game data from an array of div elements I was parsing with hpricot like so:  
 
