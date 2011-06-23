@@ -20,10 +20,10 @@ title: Dumb As a Bunny
     {% if paginator.previous_page == 1 %}
       <a class="pagination newer" href="/" title="newer"> Newer &rarr;</a>
     {% else %}
-      <a class="pagination older" href="page{{ paginator.previous_page }}/index.html" title="newer"> Newer &rarr;</a>
+      <a class="pagination older" href="/page{{ paginator.previous_page }}" title="newer"> Newer &rarr;</a>
     {% endif %}
   {% endif %}
   {% if paginator.next_page %}
-    <a class="pagination" href="page{{ paginator.next_page }}/index.html" title="older">&larr; Older</a>
+    <a class="pagination" href="/page{{ paginator.next_page }}" title="older">&larr; Older</a>
   {% endif %}
 </div>
