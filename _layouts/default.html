@@ -4,46 +4,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Dumb Bunny | {{ page.title }}</title>
+    <title>Erica Blog | {{ page.title }}</title>
     <link rel="stylesheet" href="/css/style.css" />
-    <link href="http://feeds.feedburner.com/DumbBunny" rel="alternate" title="Dumb Bunny" type="application/atom+xml" />
   </head>
 
   <body>
     <div id="header">
-        <a href="/"></a>
-    </div>    
+        <a href="/"><h1>Erica Blog<h1></a>
+    </div>
     <div id="content">
       <div id="maincol">
         {{ content }}
       </div>
-      <div id="subcol">
-        <div id="about">
-          <div id="twitter">
-            <a href="http://www.twitter.com/pui_ling"></a>
-          </div>
-          <div id="square">
-            <a href="https://www.squareup.com"></a>
-          </div>
-          <div id="github">
-            <a href="http://www.github.com/pui"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <script type="text/javascript">
-    //<![CDATA[
-    (function() {
-    	var links = document.getElementsByTagName('a');
-    	var query = '?';
-    	for(var i = 0; i < links.length; i++) {
-    	if(links[i].href.indexOf('#disqus_thread') >= 0) {
-    		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-    	}
-    	}
-    	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/dumbbunny/get_num_replies.js' + query + '"></' + 'script>');
-    })();
-    //]]>
-    </script>
   </body>
 </html>
