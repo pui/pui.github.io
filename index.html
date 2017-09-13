@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Dumb As a Bunny
+title: Erica Blog
 ---
 {% for post in paginator.posts %}
   <div class="post">
@@ -11,7 +11,6 @@ title: Dumb As a Bunny
     <p>
       {{ post.date | date: "%B %d, %Y" }}
     </p>
-    <a href="{{ post.url }}#disqus_thread">Comments</a>
   </div>
 {% endfor %}
 
