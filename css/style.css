@@ -4,9 +4,13 @@ body {
   margin: 0;
 }
 
-a, h1 a {
+h1 a {
   text-decoration: none;
-  color: #5D676D; 
+  color: #374281;
+}
+
+a {
+  color: black;
 }
 
 #content {
