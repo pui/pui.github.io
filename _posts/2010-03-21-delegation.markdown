@@ -5,7 +5,7 @@ title: Delegation
 
 It's been a long while since I've done any coding related blogging, so I thought I'd write about something I learned recently.
 
-[Delegation](http://en.wikipedia.org/wiki/Delegation_\(programming\) is one of those object-oriented programming concepts that I don't think about as much as say, inheritance or polymorphism, but it's a sensible thing that makes code cleaner.  
+[Delegation](http://en.wikipedia.org/wiki/Delegation_\(programming\)) is one of those object-oriented programming concepts that I don't think about as much as say, inheritance or polymorphism, but it's a sensible thing that makes code cleaner.
 
 Last week I found out about ActiveSupport#delegate, which can be used to delegate an object's method to another object's method.  Here's a simple example:
 
